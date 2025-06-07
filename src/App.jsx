@@ -15,17 +15,6 @@ function App() {
     <Router>
       <Navbar />
 
-      {/* Navigation Menu (can be inside Navbar too) */}
-      <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/rooms">Rooms</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/amenities">Amenities</Link></li>
-          <li><Link to="/gallery">Gallery</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-        </ul>
-      </nav>
 
       <Routes>
         <Route path="/" element={<Home />} />
