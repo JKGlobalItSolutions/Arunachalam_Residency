@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://JKGlobalItSolutions.github.io/Arunachalam_Residency",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
