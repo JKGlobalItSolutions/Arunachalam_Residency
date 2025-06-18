@@ -1,3 +1,7 @@
+import React from "react";
+
+import img1 from "../assets/homeimg/img1.jpg";
+
 function About() {
   return (
     <div className="bg-light py-5">
@@ -30,9 +34,9 @@ function About() {
             {/* Image of the Building */}
             <div className="col-md-6 mb-4">
               <img
-                src="/path/to/your-image.jpg" // <-- Replace with your actual image path
+                src= {img1} // <-- Replace with your actual image path
                 alt="Arunachalam Residency Building"
-                className="img-fluid rounded shadow"
+                className="img-fluid rounded shadow h-100"
               />
             </div>
 

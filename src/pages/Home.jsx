@@ -8,32 +8,50 @@ import img2 from "../assets/homeimg/img2.jpg";
 import img3 from "../assets/homeimg/img3.jpg";
 
 
+// ac room images
+import bad1 from "../assets/image/galleryimg/img22.jpg";
+import bad2 from "../assets/image/galleryimg/img48.jpg";
+import bad3 from "../assets/image/galleryimg/img42.jpg";
+import bad4 from "../assets/image/galleryimg/img52.jpg";
+
+// non-ac room images
+
+import bad5 from "../assets/image/galleryimg/img8.jpg";
+import bad6 from "../assets/image/galleryimg/img12.jpg";
+import bad7 from "../assets/image/galleryimg/img13.jpg";
+import bad8 from "../assets/image/galleryimg/img27.jpg";
+
+
+
+
+
 
 function Home() {
+  
   const acRooms = [
     {
       name: "Single Bed",
       price: "₹2,000/night",
       desc: "Perfect for solo travellers, offering cosy bedding and all essential amenities.",
-      img: "https://via.placeholder.com/400x250?text=AC+Single+Bed",
+      img: bad1,
     },
     {
       name: "Double Bed",
       price: "₹2,500/night",
       desc: "Spacious room ideal for two guests, equipped with modern interiors.",
-      img: "https://via.placeholder.com/400x250?text=AC+Double+Bed",
+      img: bad2,
     },
     {
       name: "Triple Bed",
       price: "₹3,000/night",
       desc: "Ideal for small groups or families, with all necessary comforts provided.",
-      img: "https://via.placeholder.com/400x250?text=AC+Triple+Bed",
+      img: bad3,
     },
     {
       name: "Four Bed",
       price: "₹3,500/night",
       desc: "Perfect for larger families or groups, featuring multiple beds and ample space.",
-      img: "https://via.placeholder.com/400x250?text=AC+Four+Bed",
+      img: bad4,
     },
   ];
 
@@ -42,25 +60,25 @@ function Home() {
       name: "Single Bed",
       price: "₹1,500/night",
       desc: "Perfect for solo travellers, offering cosy bedding and all essential amenities.",
-      img: "https://via.placeholder.com/400x250?text=Non-AC+Single+Bed",
+      img: bad5,
     },
     {
       name: "Double Bed",
       price: "₹2,000/night",
       desc: "Spacious room ideal for two guests, equipped with modern interiors.",
-      img: "https://via.placeholder.com/400x250?text=Non-AC+Double+Bed",
+      img: bad6,
     },
     {
       name: "Triple Bed",
       price: "₹2,500/night",
       desc: "Ideal for small groups or families, with all necessary comforts provided.",
-      img: "https://via.placeholder.com/400x250?text=Non-AC+Triple+Bed",
+      img: bad7,
     },
     {
       name: "Four Bed",
       price: "₹3,000/night",
       desc: "Perfect for larger families or groups, featuring multiple beds and ample space.",
-      img: "https://via.placeholder.com/400x250?text=Non-AC+Four+Bed",
+      img: bad8,
     },
   ];
 
